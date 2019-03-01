@@ -1,0 +1,32 @@
+@import '../style.css';
+
+.title p {
+    text-align: center;
+}
+
+.title-top {
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-weight: 900;
+    font-size: 20px;
+    position: relative;
+}
+
+.title-top::after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    background: rgb(51,155,68);
+    position: absolute;
+    top: 35px;
+    right: 410px;
+}
+
+.title-bottom {
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0 100px;
+    margin: 30px 0;
+    color: black;
+}

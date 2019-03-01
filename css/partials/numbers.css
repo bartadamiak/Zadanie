@@ -1,0 +1,19 @@
+.numbers {
+    display: flex;
+    margin: 30px auto;
+}
+.number {
+    width: 33.33333%;
+    text-align: center;
+    margin: 15px 0;
+}
+.number-top {
+    color: rgb(51,155,68);
+    font-size: 35px;
+    font-weight: 900;
+}
+.number-bottom {
+    margin: 10px 0;
+    font-size: 11px;
+    color: #333333;
+}

@@ -1,0 +1,38 @@
+.grant {
+    display: flex;
+}
+.grant-img {
+    width: 30%;
+    text-align: center;
+}
+.grant-img img {
+    width: 70%;
+    height: 70%;
+}
+.grant-about {
+    width: 70%;
+}
+.grant-about-top {
+    margin: 20px auto;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(51,155,68);
+    position: relative;
+}
+.grant-about-top::before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background: rgb(51,155,68);
+    position: absolute;
+    top: 25px;
+}
+.grant-about-bottom {
+    padding-right: 5px;
+    margin: 20px auto;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #333333;
+}
